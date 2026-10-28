@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Page</title>
+    <!-- <link rel="stylesheet" href="assets/style2.css"> -->
+     <link rel="stylesheet" href="{{ url_for('static' , filename='style.css') }}">
+
+
+    <script src= "static/app.js"></script>
+</head>
+<body>
+
+    <h1>welcome!</h1>
+    <p>Hello from prashant to you all</p>
+
+    <p>your name was : {{name}} & subject : {{sub}}</p>
+
+    <p>contact us at: <a href="/contact">contact</a></p>
+    
+</body>
+</html>

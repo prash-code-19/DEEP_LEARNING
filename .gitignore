@@ -1,0 +1,16 @@
+.ipynb_checkpoints/
+__pycache__/
+.env
+.env.*
+!.env.example
+*.py[cod]
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+*.tar.gz
+CNN/data/
+GAN/img_align_celeba/
+RAG/data/vector_store/
+transformer/results/
+transformer/saved_summary_model/
